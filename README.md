@@ -10,9 +10,11 @@
   * check version with `$ lsb_release -a`
   * `$ sudo apt update` to keep available packages up-to-date
   * to re-install (and destroy/recreate environments):
-    * in Windows Powershell: `PS> wsl --unregister Ubuntu-22.04`
-    * in Add/Remove Programs, uninstall Ubuntu LTS
-    * install from https://apps.microsoft.com/detail/9PN20MSR04DW again
+    * in Windows Powershell:
+      ```
+      PS> wsl --unregister Ubuntu-22.04
+      PS> wsl --install -d Ubuntu-22.04
+      ```
 * git
   * don't forget to configure
     ```
