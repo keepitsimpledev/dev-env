@@ -20,6 +20,7 @@
     ```
     $ git config --global user.name "<name>"
     $ git config --global user.email <github email>
+    $ git config --list # for immediate confirmation
     ```
 * vscode
   * can download from https://code.visualstudio.com/Download
