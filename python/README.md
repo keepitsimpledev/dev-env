@@ -6,6 +6,7 @@
     alias python=python3
     ```
 * [pip](https://linuxize.com/post/how-to-install-pip-on-ubuntu-20.04/):
+  * package manager
   ```
   $ sudo apt update
   $ sudo apt install python3-pip
@@ -13,6 +14,7 @@
   * Ubuntu-22.04 (current* [WSL Ubuntu](https://apps.microsoft.com/detail/9PN20MSR04DW) default) doesn't have pip
     * 2024 Dec 4
 * [pipenv](https://pipenv.pypa.io/)
+  * virtual environment
   ```
   $ pip install pipenv
   ```
