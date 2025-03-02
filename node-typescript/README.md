@@ -1,3 +1,4 @@
+# node-typescript
 1. set up node
   snippet from https://nodejs.org/en/download/
   ```
@@ -24,4 +25,12 @@
   npm install typescript --save-dev 
   npx tsc --init
   ```
-  
+
+## other libraries to consider using
+* [jest](https://jestjs.io/docs/getting-started)
+* [prettier](https://prettier.io/docs/install/)
+* [eslint](https://eslint.org/docs/latest/use/getting-started)
+
+## references
+* [Google Typescript style guide](https://google.github.io/styleguide/tsguide.html)
+* [TS.dev style guide](https://ts.dev/style/#identifiers)
