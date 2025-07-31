@@ -1,6 +1,7 @@
 # node-typescript
 1. set up node
   snippet from https://nodejs.org/en/download/
+   * for certificate issues during the curl step, consider https://github.com/bayaro/windows-certs-2-wsl ([conversation reference](https://superuser.com/questions/1723202/ssl-certificates-no-longer-work-with-curl))
   ```
   # Download and install nvm:
   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
@@ -18,6 +19,7 @@
   # Verify npm version:
   npm -v # Should print "10.9.2".
   ```
+
 2. set up typescript project
   steps from https://www.geeksforgeeks.org/how-to-setup-a-typescript-project/
   ```
