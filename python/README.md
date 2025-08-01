@@ -18,6 +18,15 @@
     ```
     $ pip install pipenv
     ```
+  * for certificate issues, consider
+    ```
+    pip --cert <path/to/cert>.pem install <package list>
+    ```
+    or
+    ```
+    export PIP_CERT=path/to/self-signed-cert.pem
+    ```
+    (https://pip.pypa.io/en/stable/topics/https-certificates/#using-a-specific-certificate-store | [discussion](https://stackoverflow.com/a/26062583))
 * [black](https://pypi.org/project/black/)
   * style formatter
   * `pipenv install git+https://github.com/psf/black`
