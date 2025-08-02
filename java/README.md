@@ -3,7 +3,7 @@
 https://ubuntu.com/tutorials/install-jre
 ```
 $ sudo apt install default-jre
-$ java -version # confirmation
+$ java --version # confirmation
 ```
 
 https://vitux.com/how-to-setup-java_home-path-in-ubuntu/
