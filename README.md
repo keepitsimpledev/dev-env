@@ -14,7 +14,7 @@
         ```
         PS> wsl --install --from-file <image>.wsl
         ``` 
-      * ...install from https://apps.microsoft.com/detail/9PN20MSR04DW
+      * ...or install from https://apps.microsoft.com/detail/9PN20MSR04DW
     * if installation hangs, [try sending SIGINT](https://github.com/microsoft/WSL/issues/6405)
   * check version with `$ lsb_release -a`
   * `$ sudo apt update` to keep available packages up-to-date
