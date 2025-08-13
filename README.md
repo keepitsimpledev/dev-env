@@ -5,12 +5,20 @@
   * in powershell, set version 2 as default with `$ wsl --set-default-version 2`
   * [update linux kernel](https://learn.microsoft.com/en-us/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package) may also be required
 * [Ubuntu](https://ubuntu.com/)
-  * install from https://apps.microsoft.com/detail/9PN20MSR04DW
+  * in Windows Powershell:
+    ```
+    PS> wsl --install -d Ubuntu-22.04
+    ```
+    * [alternatively](https://documentation.ubuntu.com/wsl/latest/howto/install-ubuntu-wsl2/)...
+      * ...[manually download](https://ubuntu.com/desktop/wsl) and install with
+        ```
+        PS> wsl --install --from-file <image>.wsl
+        ``` 
+      * ...install from https://apps.microsoft.com/detail/9PN20MSR04DW
     * if installation hangs, [try sending SIGINT](https://github.com/microsoft/WSL/issues/6405)
   * check version with `$ lsb_release -a`
   * `$ sudo apt update` to keep available packages up-to-date
-  * to re-install (and destroy/recreate environments):
-    * in Windows Powershell:
+  * to re-install (and destroy/recreate environments)
       ```
       PS> wsl --unregister Ubuntu-22.04
       PS> wsl --install -d Ubuntu-22.04
