@@ -1,7 +1,7 @@
 # node
 - set up node
   snippet from https://nodejs.org/en/download/
-   * for certificate issues during the curl step, consider https://github.com/bayaro/windows-certs-2-wsl ([conversation reference](https://superuser.com/questions/1723202/ssl-certificates-no-longer-work-with-curl))
+   * for certificate issues during the curl step, consider https://github.com/bayaro/windows-certs-2-wsl ([conversation reference](https://superuser.com/questions/1723202/ssl-certificates-no-longer-work-with-curl)) or http://github.com/microsoft/WSL/issues/3161
   ```
   # Download and install nvm:
   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
