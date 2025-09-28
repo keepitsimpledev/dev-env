@@ -14,3 +14,5 @@ $ export JAVA_HOME=/usr/lib/jvm/java-18-openjdk-amd64
 $ export PATH=$PATH:$JAVA_HOME/bin
 $ echo $PATH # confirmation
 ```
+
+[extension for VS code](https://marketplace.visualstudio.com/items?itemName=Oracle.oracle-java)
