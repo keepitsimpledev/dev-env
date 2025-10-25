@@ -36,3 +36,6 @@
   * wsl extension: https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl
   * github actions (pipeline) extension: https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions
     * for context-support when managing pipeline (.yml) files
+
+## Resources
+- https://www.bigocheatsheet.com/ - always a nice reference 🙂
