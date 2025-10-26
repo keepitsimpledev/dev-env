@@ -17,7 +17,10 @@
   * virtual environment
     ```
     $ pip install pipenv
+    $ export PATH=$PATH:/home/<USERNAME>/.local/bin
+    $ pipenv sync # to install packages from existing Pipeline
     ```
+* select pipenv python as interpreter
   * for certificate issues, consider
     ```
     pip --cert <path/to/cert>.pem install <package list>
@@ -37,3 +40,4 @@
     $ black .
     ```
     upon completion, one can `$ pipenv exit`
+* [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
