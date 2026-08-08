@@ -23,6 +23,7 @@
       PS> wsl --unregister Ubuntu-22.04
       PS> wsl --install -d Ubuntu-22.04
       ```
+  * to check IP of WSL: `PS> wsl hostname -I`
 * git
   * don't forget to configure
     ```
