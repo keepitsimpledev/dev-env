@@ -22,3 +22,6 @@ $ echo $PATH # confirmation
 - If there seem to be inexplicable IDE problems like "cannot find symbol" or "package not found", there might be an issue with [the deprecated `org.gradle.util.VersionNumber`](https://github.com/gradle/gradle/issues/34546). This deprecation happened in [version 9](https://gradle.org/releases/), so consider downgrading:
   `./gradlew wrapper --gradle-version 8.14.3`
   (followed by [Java Platform Extension](https://marketplace.visualstudio.com/items?itemName=Oracle.oracle-java)'s "Clean the Java language server", if necessary)
+
+## other notes
+- [Maven: directory structure convention](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html)
