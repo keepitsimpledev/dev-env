@@ -18,6 +18,7 @@ $ echo $PATH # confirmation
 
 ## VS Code
 - [Java Platform Extension](https://marketplace.visualstudio.com/items?itemName=Oracle.oracle-java)
+  - Reminder: when resolving project initialization issues, confirm classpath and java runtime in Explorer > JAVA PROJECTS > More Actions...
 - Consider disabling "Jdk > Java On Save: Organize Imports > Enable organize imports action on a document save". Otherwise, if auto-save is on, manually added imports will often just disappear
 - Gradle: If there seem to be inexplicable IDE problems like "cannot find symbol" or "package not found", there might be an issue with [the deprecated `org.gradle.util.VersionNumber`](https://github.com/gradle/gradle/issues/34546). This deprecation happened in [version 9](https://gradle.org/releases/), so consider downgrading:
   `./gradlew wrapper --gradle-version 8.14.3`
