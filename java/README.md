@@ -12,7 +12,7 @@ $ sudo apt install temurin-17-jdk
 $ java -version # confirmation
 $ javac -version # confirmation
 
- # if necessary, to set or switch java version
+# if necessary, to set or switch java version
 $ update-alternatives --config java
 ```
 
