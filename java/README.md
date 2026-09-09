@@ -11,6 +11,9 @@ $ sudo apt update
 $ sudo apt install temurin-17-jdk
 $ java -version # confirmation
 $ javac -version # confirmation
+
+ # if necessary, to set or switch java version
+$ update-alternatives --config java
 ```
 
 if necessary, https://vitux.com/how-to-setup-java_home-path-in-ubuntu/
