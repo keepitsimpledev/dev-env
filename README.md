@@ -1,3 +1,5 @@
+Preface: Code blocks are pre-pended with a shell prompt (ex. `$` for bash, `PS>` for powershell). This does make copy-paste less streamlined as the decision is one for readability, not functionality. ([relevant discussion](https://github.com/orgs/community/discussions/35615))
+
 # Ubuntu on Windows using WSL
 
 * [WSL (Windows Subsystem for Linux)](https://learn.microsoft.com/en-us/windows/wsl/install)
