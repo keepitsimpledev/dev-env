@@ -1,7 +1,7 @@
 # java
 
 [Installing java with apt on ubuntu,](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-22-04)
-[using temurin JDK for compatibility with available github runners](https://adoptium.net/installation/linux)
+[using temurin JDK](https://adoptium.net/installation/linux) for compatibility with chosen/available github runners
 
 ```
 $ sudo apt install -y wget apt-transport-https gpg
